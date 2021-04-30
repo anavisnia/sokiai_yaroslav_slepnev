@@ -1,0 +1,98 @@
+<div class="slides">
+    <!-- radio start-->
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <!-- radio end -->
+    <!-- slide images start -->
+    <div class="slide first">
+        <img src="/img/slider/image00011.jpeg" alt="">
+    </div>
+    <div class="slide">
+        <img src="/img/slider/image00007.jpeg" alt="">
+    </div>
+    <div class="slide">
+        <img src="/img/slider/image00013.jpeg" alt="">
+    </div>
+    <div class="slide">
+        <img src="/img/slider/image00018.jpeg" alt="">
+    </div>
+    <!-- slide images end -->
+    <!-- autonavigation start -->
+    <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+    </div>
+    <!-- autonavigation end -->
+    <!-- manual navigation start -->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!-- manual navigation end -->
+</div>
+
+
+<style>
+    div.about-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.slider {
+        width: 333px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .slides {
+        width: 650%;
+        height: 500px;
+        display: flex;
+    }
+
+    .slides>input {
+        display: none;
+    }
+
+    .slide {
+        width: 20%;
+        transition: 2s;
+    }
+
+    .slide>img {
+        width: 333px;
+        height: 500px;
+    }
+
+    .navigation-manual {
+        position: absolute;
+        width: 333px;
+        margin-top: 530px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manual-btn {
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .manual-btn:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .manual-btn:hover {
+        background: black;
+    }
+</style>

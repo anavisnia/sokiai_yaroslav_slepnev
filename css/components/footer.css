@@ -1,0 +1,33 @@
+footer {
+    background-color: lightgrey;
+    width: 100%;
+    height: fit-content;
+}
+
+footer > div {
+    display: block;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer > div > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 0 20px;
+    padding: 15px 0 10px 0;
+}
+
+footer > div > a:hover {
+    color: rgb(81, 172, 140);
+}
+
+footer > div > p {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 0 20px;
+    padding: 15px 0 5px 0;
+}
