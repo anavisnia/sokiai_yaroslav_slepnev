@@ -20,14 +20,15 @@ section.hero__guide {
     padding: 10px;
     line-height: 20px;
     text-align: center;
-    color: rgb(146, 144, 144);
+    color: rgb(0, 0, 0);
     border-radius: 50%;
     transition: all 0.5s;
+    border: 0.5px solid rgb(0, 0, 0);
 }
   
 .guide__container > a.social.fa:hover {
-    background-color: rgb(148, 142, 142);
-    color: var(--main-color);
+    background-color: rgb(46, 46, 46);
+    color: #fff;
 }
 
 .guide__container > h1 {
