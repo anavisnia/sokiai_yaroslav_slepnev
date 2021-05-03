@@ -46,6 +46,23 @@
     text-decoration: none;
 }
 
+.hero__title > a.social.fa {
+    display: inline-block;
+    width: 40px; /*line-hight + padding * 2 = 40px */
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid white;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+  
+.hero__title > a.social.fa:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
 .hero__title > p {
     padding: 15px 0 0 0;
     display: block;
