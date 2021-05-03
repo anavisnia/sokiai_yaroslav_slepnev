@@ -13,13 +13,21 @@ section.hero__guide {
     padding-top: 100px;
 }
 
-.guide__container > a {
-    text-decoration: none;
+.guide__container > a.social.fa {
     display: inline-block;
-    padding: 40px 0;
-    font-size: 35px;
-    line-height: 1.3;
-    color: black;
+    width: 40px; /*line-hight + padding * 2 = 40px */
+    margin: 40px 0;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(146, 144, 144);
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+  
+.guide__container > a.social.fa:hover {
+    background-color: rgb(148, 142, 142);
+    color: var(--main-color);
 }
 
 .guide__container > h1 {
