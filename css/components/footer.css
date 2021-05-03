@@ -13,8 +13,8 @@ footer > div {
 }
 
 footer > div > a {
-    font-size: 18px;
     text-decoration: none;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.767);
     margin: 0 20px;
     padding: 15px 0 10px 0;
@@ -22,11 +22,11 @@ footer > div > a {
 
 footer > div > a:hover {
     color: rgb(81, 172, 140);
+    text-decoration: none;
 }
 
 footer > div > p {
     font-size: 16px;
-    text-decoration: none;
     color: rgba(0, 0, 0, 0.767);
     margin: 0 20px;
     padding: 15px 0 5px 0;

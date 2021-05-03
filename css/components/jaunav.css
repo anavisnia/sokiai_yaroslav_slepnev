@@ -29,6 +29,7 @@ section.hero__jaunav {
     font-size: 20px;
     font-weight: 400;
 }
+
 .jaunav__container > a {
     color: black;
     font-size: 18px;
@@ -48,13 +49,12 @@ section.jaunav__about {
 
 .jaunav__about__container {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     padding: 0px 170px 50px 170px;
-    position: absolute;
+    /* position: relative; */
 }
 
 div.about_left {
-    position: relative;
     display: inline-block;
     width: 45%;
     height: 100%;
@@ -74,7 +74,6 @@ div.about_left > p {
 }
 /* --------------   IMG GALLERY START  -------------- */
 div.about_right {
-    position: relative;
     display: inline-block;
     width: 45%;
     height: 100%;
@@ -123,25 +122,27 @@ div.statment {
     display: inline-block;
     width: 30%;
     margin: 0;
-}
-
-div.statment > p.statment_back {
-    color: rgba(240, 248, 255, 0.404);
-    display: inline-block;
-    font-size: 100px;
     position: relative;
-    top: -50px;
 }
 
-div.statment> p.statment_front {
-    padding-top: 20px;
+div.statment.bg-text > p {
+    padding: 50px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
     display: inline-block;
-    width: 200px;
     font-size: 20px;
-    position: relative;
-    left: -60px;
-    z-index: 1;
     color: aliceblue;
+}
+div.statment.bg-text::before {
+    color: rgba(255, 255, 255, 0.404);
+    content: attr(data-bg-text);
+    display: block;
+    font-size: 90px;
+    line-height: 1;
+    position: absolute;
+    bottom: auto;
+    right: 250px;   
 }
 
 section.jaunav__program {
@@ -173,15 +174,12 @@ section.jaunav__program {
     height: fit-content;
 }
 
-div.jaunav__program__container > div.statment__container > div.statment > p.statment_back {
+div.jaunav__program__container > div.statment__container > div.statment.bg-text::before {
     color: rgba(0, 0, 0, 0.404);
-    top: -20px;
 }
 
 div.jaunav__program__container > div.statment__container > div.statment > p.statment_front {
     color: black;
-    left: -60px;
-    bottom: -30px;
 }
 
 section.jaunav__payment__plan {
@@ -190,7 +188,7 @@ section.jaunav__payment__plan {
 }
 
 div.jaunav__payment__container {
-    padding: 30px 400px;
+    padding: 30px 100px;
     text-align: center;
 }
 
@@ -205,7 +203,7 @@ div.payment__info {
     border: 1px solid black;
     border-radius: 5px;
     height: fit-content;
-    width: 70%;
+    width: 500px;
     height: 500px;
     margin: auto;
     text-align: left;
