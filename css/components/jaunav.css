@@ -410,10 +410,8 @@ div.panel > p {
         left: -25px;   
     }
 
-    section.jaunav__program {
-        width: 100%;
-        height: 800px;
-        
+    body > section.jaunav__program {
+        height: 800px;  
     }
     
     div.jaunav__program__container {
