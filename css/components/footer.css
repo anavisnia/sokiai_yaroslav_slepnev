@@ -31,3 +31,24 @@ footer > div > p {
     margin: 0 20px;
     padding: 15px 0 5px 0;
 }
+
+/* RESPONSIVE */
+/* tablets */
+@media only screen and (min-device-width: 500px) and (max-device-width: 770px) {     
+    footer > div {
+        width: 50%;
+        padding: 20px 0;
+    }
+    
+    footer > div > a {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.767);
+        margin: 0 20px;
+        padding: 15px 0 10px 0;
+    }
+    
+    footer > div > p {
+        font-size: 18px;
+    }
+}
+/* RESPONSIVE */

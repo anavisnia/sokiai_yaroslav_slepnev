@@ -91,3 +91,35 @@
     font-size: 15px;
     font-weight: 600;
 }
+
+/* RESPONSIVE */
+/* tablets */
+@media only screen and (min-device-width: 500px) and (max-device-width: 770px) {    
+    .hero__container {
+        width: 70%;
+        padding-top: 20%;
+    }
+    
+    .hero__title {
+        padding-top: 100px;
+        width: 450px;
+    }
+    
+    .hero__title > p {
+        font-size: 16px;
+    }
+    
+    .hero__links {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+
+    .hero__links > a {
+        width: 100%;
+        padding: 15px 0;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+}
+/* RESPONSIVE */

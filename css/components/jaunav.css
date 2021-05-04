@@ -313,3 +313,213 @@ div.panel > p {
 /* div.accordion.active.last > div.panel.last {
     border-bottom: 1px solid black;
 } */
+
+/* RESPONSIVE */
+/* tablets */
+@media only screen and (min-device-width: 500px) and (max-device-width: 780px) {     
+    .jaunav__container {
+        padding: 0 50px;
+        /* padding-top: 100px; */
+    }
+    
+    .jaunav__container > h1 {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .jaunav__container > h3 {
+        font-size: 25px;
+    }
+    
+    .jaunav__container > a {
+        font-size: 20px;
+    }
+    
+    section.jaunav__about {
+        height: fit-content;
+    }
+    
+    div.jaunav__about__container {
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+        padding: 50px 30px 50px 30px;
+    }
+    
+    div.about_left {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 0px 20px;
+    }
+    
+    div.about_left > h3 {
+        font-size: 50px;
+    }
+    
+    div.about_left > p {
+        font-size: 25px;
+    }
+    /* --------------   IMG GALLERY START  -------------- */
+    div.about_right {
+        display: block;
+        width: 100%;
+        height: 900px;
+    }
+    
+    div.about_right > div.carousel.slide > div.carousel-inner  {
+        width: auto;
+        height: 900px;
+    }
+    
+    /* --------------   IMG GALLERY END   -------------- */
+    
+    section.jaunav__statments {
+        width: 100%;
+        height: 700px;
+        background-image: url(../../img/bg/image00012m.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    div.jaunav__statments__container {
+        width: 100%;
+        padding: 30px 50px 0px 50px;
+    }
+
+    div.statment {
+        display: block;
+        width: 100%;
+    }
+    
+    div.statment.bg-text > p {
+        padding: 50px 20px 20px 20px;
+        font-size: 25px;
+    }
+    div.statment.bg-text::before {
+        color: rgba(255, 255, 255, 0.404);
+        display: block;
+        font-size: 90px;
+        bottom: auto;
+        left: -25px;   
+    }
+    
+    .jaunav__program__container {
+        padding: 80px 100px 70px 100px;
+    }
+    
+    .jaunav__program__container > h3{
+        font-size: 60px;
+    }
+    
+    .jaunav__program__container > div.statment__container {
+        position: relative;
+        height: 200px;
+    }
+    
+    .jaunav__program__container > div.statment__container > div.statment {
+        height: fit-content;
+    }
+    
+    div.jaunav__program__container > div.statment__container > div.statment.bg-text::before {
+        color: rgba(0, 0, 0, 0.144);
+    }
+    
+    div.jaunav__program__container > div.statment__container > div.statment > p.statment_front {
+        color: black;
+    }
+
+    section.jaunav__payment__plan {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    div.jaunav__payment__container > h2{
+        font-size: 35px;
+    }
+    
+    div.payment__info {
+        background-color: rgb(209, 209, 209);
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    div.payment__info > h3 {
+        font-size: 35px;
+    }
+    
+    div.payment__info > h4 {
+        font-size: 30px;
+    }
+    
+    div.payment__info > p {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px 60px;
+        color: rgba(95, 94, 94, 0.705);
+        border-top: 1px solid black;
+    }
+    
+    div.payment__info > ul {
+        margin: 40px 0;
+    }
+    
+    div.payment__info > ul > li {
+        font-size: 20px;
+    }
+    
+    div.jaunav__payment__container > a {
+        background-color: rgba(255, 255, 255, 0);
+        padding: 15px 50px;
+        color: black;
+        border: 1px solid black;
+        font-size: 20px;
+    }
+
+    section.jaunav__faq {
+        margin-top: 50px;
+    }
+    
+    div.jaunav__faq__container {
+        margin: 0px 100px;
+        height: fit-content;
+    }
+    
+    button.accordion {
+        background-color: white;
+        color: #444;
+        width: 100%;
+        cursor: pointer;
+        padding: 18px;
+        margin: 1px 0;
+        text-align: left;
+        font-size: 20px;
+        border: none;
+        border-top: 1px solid black;
+        outline: none;
+        transition: 0.4s;
+    }
+    
+    /* button.accordion.last {
+        border-bottom: 1px solid black;
+    }
+    
+    button.accordion:hover {
+        background-color: rgba(235, 235, 235, 0.623);
+    } */
+    
+    /* 
+    .active, .accordion:hover {
+        background-color: white;
+    } */
+    
+    div.panel > p {
+        font-size: 18px;
+    }
+    /* div.accordion.active.last > div.panel.last {
+        border-bottom: 1px solid black;
+    } */
+}
+/* RESPONSIVE */
