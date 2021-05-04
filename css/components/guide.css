@@ -100,5 +100,86 @@ div.guide__data__element > a{
 }
 
 /* RESPONSIVE */
+@media only screen and (min-device-width: 500px) and (max-device-width: 780px) {  
+    section.hero__guide {
+        /* width: 100%;
+        height: 100vh;
+        background-image: url(../../img/bg/image00023.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+    }
+    
+    .guide__container {
+        /* width: 100%;
+        height: 100vh; */
+        padding: 0 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    .guide__container > a.social.fa {
+        /* display: inline-block; */
+        /* width: 40px; line-hight + padding * 2 = 40px  */
+        margin: 20px 0;
+        /* padding: 10px; */
+        /* line-height: 20px; */
+        /* text-align: center; */
+        /* color: rgb(0, 0, 0); */
+        /* color: #fff; */
+        /* border-radius: 50%; */
+        /* transition: all 0.5s; */
+        /* border: 0.5px solid rgb(0, 0, 0); */
+        /* border: 0.5px solid rgb(255, 255, 255); */
+    } 
+   
+      
+    /* .guide__container > a.social.fa:hover {
+        background-color: rgb(46, 46, 46);
+        color: #fff;
+    } */
+    
+    .guide__container > h1 {
+        font-size: 30px;
+        padding: 20px 0;
+        color: #fff;
+    }
+    
+    .guide__container > h3 {
+        /* display: block; */
+        /* padding: 20px 0; */
+        font-size: 18px;
+        /* font-weight: 400; */
+        color: #fff;
+    }
+    
+    section.guide__data {
+        width: 100%;
+        height: fit-content;
+        padding: 50px 0;
+    }
+    
+    div.guide__data__container {
+        width: 80%;
+        margin: auto;
+        padding: 40px 0;
+    }
+    
+    div.guide__data__element {
+        width: 100%;
+    }
+    
+    /* div.guide__data__element > img {
+        width: 370px;
+        height: 500px;
+        border-radius: 10px;
+    } */
 
+    div.guide__data__element > h3 {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+}
 /* RESPONSIVE */
