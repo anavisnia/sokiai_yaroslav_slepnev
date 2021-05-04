@@ -409,19 +409,20 @@ div.panel > p {
         bottom: auto;
         left: -25px;   
     }
-
-    body > section.jaunav__program {
-        height: 800px;  
+  
+    section.jaunav__program {
+        width: 100%;
+        height: 1000px;   
     }
     
     div.jaunav__program__container {
         display: block;
-        height: 800px;
+        height: 1000px;
         padding: 80px 100px 70px 100px;
     }
     
     div.jaunav__program__container > h3{
-        font-size: 60px;
+        font-size: 35px;
     }
     
     div.jaunav__program__container > div.statment__container {
@@ -457,6 +458,7 @@ div.panel > p {
     
     div.payment__info {
         width: 100%;
+        height: fit-content;
         background-color: rgb(209, 209, 209);
         border: 1px solid black;
         border-radius: 10px;
