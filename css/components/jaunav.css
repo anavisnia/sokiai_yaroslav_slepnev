@@ -316,7 +316,12 @@ div.panel > p {
 
 /* RESPONSIVE */
 /* tablets */
-@media only screen and (min-device-width: 500px) and (max-device-width: 780px) {     
+@media only screen and (min-device-width: 500px) and (max-device-width: 780px) {  
+    section.hero__jaunav {
+        width: 100%;
+        height: 1000px;
+    }
+
     .jaunav__container {
         padding: 0 50px;
         /* padding-top: 100px; */
@@ -377,7 +382,7 @@ div.panel > p {
     
     section.jaunav__statments {
         width: 100%;
-        height: 700px;
+        height: 800px;
         background-image: url(../../img/bg/image00012m.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -389,7 +394,7 @@ div.panel > p {
     }
 
     div.statment {
-        display: block;
+        display: inline-block;
         width: 100%;
     }
     
@@ -404,21 +409,28 @@ div.panel > p {
         bottom: auto;
         left: -25px;   
     }
+
+    section.jaunav__program {
+        width: 100%;
+        height: 800px;
+    }
     
-    .jaunav__program__container {
+    div.jaunav__program__container {
+        display: block;
+        height: 800px;
         padding: 80px 100px 70px 100px;
     }
     
-    .jaunav__program__container > h3{
+    div.jaunav__program__container > h3{
         font-size: 60px;
     }
     
-    .jaunav__program__container > div.statment__container {
+    div.jaunav__program__container > div.statment__container {
         position: relative;
         height: 200px;
     }
     
-    .jaunav__program__container > div.statment__container > div.statment {
+    div.jaunav__program__container > div.statment__container > div.statment {
         height: fit-content;
     }
     
@@ -431,6 +443,7 @@ div.panel > p {
     }
 
     section.jaunav__payment__plan {
+        margin-top: 10px;
         width: 100%;
         height: fit-content;
     }
