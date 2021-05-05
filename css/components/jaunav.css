@@ -404,6 +404,10 @@ div.panel > p {
         bottom: auto;
         left: -25px;   
     }
+
+    body > section.jaunav__program {
+        height: 800px;  
+    }
     
     .jaunav__program__container {
         padding: 80px 100px 70px 100px;
