@@ -541,4 +541,242 @@ div.panel > p {
         border-bottom: 1px solid black;
     } */
 }
+/* phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    section.hero__jaunav {
+        height: 100vh;
+        height: fit-content;
+    }
+
+    .jaunav__container {
+        padding: 0 10px;
+        text-align: center;
+    }
+    
+    .jaunav__container > h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .jaunav__container > h3 {
+        font-size: 18px;
+    }
+    
+    .jaunav__container > a {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+    section.jaunav__about {
+        height: 1370px;
+    }
+    
+    div.jaunav__about__container {
+        display: inline-block;
+        width: 100%;
+        padding: 20px 10px 10px 10px;
+        height: fit-content;
+    }
+    
+    div.about_left {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+    
+    div.about_left > h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    div.about_left > p {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    /* --------------   IMG GALLERY START  -------------- */
+    a.carousel-control-prev {
+        display: none;
+    }
+
+    a.carousel-control-next {
+        display: none;
+    }
+
+    ol.carousel-indicators {
+        display: none;
+    }
+
+    div.about_right {
+        display: block;
+        width: 100%;
+        height: 550px;
+    }
+    
+    div.about_right > div.carousel.slide > div.carousel-inner  {
+        width: auto;
+        height: 550px;
+    }
+    
+    /* --------------   IMG GALLERY END   -------------- */
+    
+    section.jaunav__statments {
+        height: 800px;
+        background-image: url(../../img/bg/image00012m.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    div.jaunav__statments__container {
+        width: 100%;
+        padding: 30px 20px 0px 20px;
+    }
+
+    div.statment {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    div.statment.bg-text > p {
+        padding: 50px 20px 20px 20px;
+        font-size: 18px;
+    }
+    div.statment.bg-text::before {
+        color: rgba(255, 255, 255, 0.404);
+        display: block;
+        font-size: 90px;
+        bottom: auto;
+        left: -20px;   
+    }
+    
+    section.jaunav__program {
+        width: 100%;
+        height: 800px;   
+    }
+    
+    div.jaunav__program__container {
+        display: block;
+        height: 800px;
+        padding: 30px 10px 30px 10px;
+    }
+    
+    div.jaunav__program__container > h3{
+        font-size: 30px;
+    }
+    
+    div.jaunav__program__container > div.statment__container {
+        position: relative;
+        height: 200px;
+    }
+    
+    div.jaunav__program__container > div.statment__container > div.statment {
+        height: fit-content;
+    }
+    
+    div.jaunav__program__container > div.statment__container > div.statment.bg-text::before {
+        color: rgba(0, 0, 0, 0.144);
+    }
+    
+    div.jaunav__program__container > div.statment__container > div.statment > p.statment_front {
+        color: black;
+    }
+    /* HERE */
+    section.jaunav__payment__plan {
+        margin-top: 10px;
+        width: 100%;
+        height: 637px;
+        height: fit-content;
+    }
+
+    div.jaunav__payment__container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    
+    div.jaunav__payment__container > h2{
+        font-size: 25px;
+    }
+    
+    div.payment__info {
+        width: 100%;
+        height: 465px;
+        background-color: rgb(209, 209, 209);
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    div.payment__info > h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    div.payment__info > h4 {
+        margin: auto;
+        width: 70%;
+        font-size: 30px;
+        border-bottom: 1px solid black;
+    }
+    
+    div.payment__info > p {
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px 10px;
+        color: rgba(95, 94, 94, 0.705);
+        border: none;
+    }
+    
+    div.payment__info > ul {
+        margin: 20px 0;
+    }
+    
+    div.payment__info > ul > li {
+        font-size: 16px;
+    }
+    
+    div.jaunav__payment__container > a {
+        background-color: rgba(255, 255, 255, 0);
+        padding: 15px 50px;
+        color: black;
+        border: 1px solid black;
+        font-size: 20px;
+    }
+
+    section.jaunav__faq {
+        margin-top: 100px;
+    }
+    
+    div.jaunav__faq__container {
+        margin: 0px 20px;
+        height: fit-content;
+    }
+    
+    button.accordion {
+        background-color: white;
+        color: #444;
+        font-size: 18px;
+
+    }
+    
+    /* button.accordion.last {
+        border-bottom: 1px solid black;
+    }
+    
+    button.accordion:hover {
+        background-color: rgba(235, 235, 235, 0.623);
+    } */
+    
+    /* 
+    .active, .accordion:hover {
+        background-color: white;
+    } */
+    
+    div.panel > p {
+        font-size: 16px;
+    }
+    /* div.accordion.active.last > div.panel.last {
+        border-bottom: 1px solid black;
+    } */
+}
 /* RESPONSIVE */

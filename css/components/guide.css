@@ -181,4 +181,80 @@ div.guide__data__element > a{
     }
 
 }
+
+/* phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    section.hero__guide {
+        height: 100vh;
+        background-image: url(../../img/bg/image00023.jpeg);
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .guide__container {
+        /* width: 100%;
+        height: 100vh; */
+        padding: 0 20px;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    
+    .guide__container > a.social.fa {
+        margin: 10px 0;
+    } 
+   
+      
+    /* .guide__container > a.social.fa:hover {
+        background-color: rgb(46, 46, 46);
+        color: #fff;
+    } */
+    
+    .guide__container > h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        color: #fff;
+    }
+    
+    .guide__container > h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    section.guide__data {
+        width: 100%;
+        height: 1442px;
+        height: fit-content;
+        padding: 30px 0;
+    }
+    
+    div.guide__data__container {
+        width: 90%;
+        margin: auto;
+        padding: 40px 0;
+    }
+    
+    div.guide__data__element {
+        width: 100%;
+    }
+    
+    div.guide__data__element > img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.guide__data__element > h3 {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+
+    div.guide__data__element > a {
+        text-align: center;
+        width: 230px;
+        padding: 10px 30px;
+        font-size: 18px;
+        color: black;
+    }
+}
 /* RESPONSIVE */
