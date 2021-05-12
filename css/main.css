@@ -4,3 +4,16 @@
 @import './components/jaunav.css';
 @import './components/guide.css';
 @import './components/footer.css';
+
+/* general media query */
+@media only screen and (min-device-width: 1450px) {
+    body > section {
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    body > footer {
+        max-width: 1400px;
+        margin: auto;
+    }
+}
