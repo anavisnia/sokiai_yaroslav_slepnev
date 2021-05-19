@@ -1,7 +1,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url(../../img/bg/image00015m.jpeg);
+    background-image: url(../../img/new/image00010.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
 .hero__container {
     width: 70%;
     height: fit-content;
-    padding-top: 10%;
+    padding-top: 17%;
     margin: auto;
 }
 
@@ -27,7 +27,7 @@
     font-weight: 500;
     position: relative;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .hero__title > h1::before {
