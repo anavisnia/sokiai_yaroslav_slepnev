@@ -340,11 +340,17 @@ div.panel > p {
     .jaunav__container > h1 {
         font-size: 30px;
         padding-top: 40px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     
     .jaunav__container > h3 {
         font-size: 25px;
+        width: 100%;
+    }
+
+    .jaunav__container > p {
+        padding: 30px 0;
+        width: 60%;
     }
     
     .jaunav__container > a {
@@ -558,7 +564,7 @@ div.panel > p {
     }
 
     .jaunav__container {
-        background-color: rgba(151, 151, 151, 0.432);
+        background-color: rgba(0, 0, 0, 0.329);
         height: auto;
         width: 100%;
         padding: 0 20px;
@@ -572,10 +578,12 @@ div.panel > p {
     }
     
     .jaunav__container > h3 {
+        width: 100%;
         font-size: 18px;
     }
 
     .jaunav__container > p {
+        width: 100%;
         padding: 20px 0;
         font-size: 16px;
         line-height: 1.5;
