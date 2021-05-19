@@ -1,17 +1,19 @@
 section.hero__jaunav {
     width: 100%;
     height: 100vh;
-    /* background-image: url(/img/bg/image00015m.jpeg); */
+    background-image: url(/img/bg/hero_bg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.97;
 }
 
 .jaunav__container {
-    width: 100%;
+    width: 50%;
     height: fit-content;
-    padding: 0 150px;
+    padding: 0 50px;
     padding-top: 100px;
+    color: white;
 }
 
 .jaunav__container > h1 {
@@ -28,29 +30,39 @@ section.hero__jaunav {
     padding: 20px 0;
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.3;
+}
+
+.jaunav__container > p {
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .jaunav__container > a {
-    color: black;
+    /* color: black; */
+    color: white;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     margin-top: 60px;
     padding: 15px 30px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
 }
 
 section.jaunav__about {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .jaunav__about__container {
     width: 100%;
     height: 100vh;
-    padding: 0px 170px 50px 170px;
+    padding: 0px 120px 50px 120px;
     /* position: relative; */
 }
 
@@ -76,11 +88,12 @@ div.about_left > p {
 div.about_right {
     display: inline-block;
     width: 45%;
-    height: 100%;
+    height: auto;
     float: right;
 }
 
 div.about_right > div.carousel.slide > div.carousel-inner  {
+    margin-top: 30%;
     height: 700px;
 }
 
@@ -199,7 +212,7 @@ div.jaunav__payment__container > h2{
 }
 
 div.payment__info {
-    background-color: blanchedalmond;
+    background-color: rgb(223, 204, 224);
     border: 1px solid black;
     border-radius: 5px;
     height: fit-content;
@@ -370,6 +383,7 @@ div.panel > p {
     
     div.about_right > div.carousel.slide > div.carousel-inner  {
         width: auto;
+        margin-top: 0;
         height: 900px;
     }
     
@@ -453,7 +467,6 @@ div.panel > p {
     div.payment__info {
         width: 100%;
         height: fit-content;
-        background-color: rgb(209, 209, 209);
         border: 1px solid black;
         border-radius: 10px;
     }
@@ -543,8 +556,11 @@ div.panel > p {
     }
 
     .jaunav__container {
-        padding: 0 10px;
-        text-align: center;
+        background-color: rgba(151, 151, 151, 0.432);
+        height: auto;
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
     }
     
     .jaunav__container > h1 {
@@ -556,8 +572,16 @@ div.panel > p {
     .jaunav__container > h3 {
         font-size: 18px;
     }
+
+    .jaunav__container > p {
+        padding: 20px 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
     
     .jaunav__container > a {
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 18px;
         padding: 10px 25px;
     }
@@ -695,7 +719,6 @@ div.panel > p {
     div.payment__info {
         width: 100%;
         height: 465px;
-        background-color: rgb(209, 209, 209);
         border: 1px solid black;
         border-radius: 10px;
     }
