@@ -1,5 +1,5 @@
 footer {
-    background-color: lightgrey;
+    background-color: rgb(223, 204, 224);
     width: 100%;
     height: fit-content;
 }
@@ -21,7 +21,7 @@ footer > div > a {
 }
 
 footer > div > a:hover {
-    color: rgb(81, 172, 140);
+    color: rgb(223, 204, 224);
     text-decoration: none;
 }
 
