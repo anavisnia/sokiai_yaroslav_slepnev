@@ -13,6 +13,7 @@ section.hero__jaunav {
     height: fit-content;
     padding: 0 50px;
     padding-top: 100px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -63,8 +64,8 @@ section.jaunav__about {
 
 .jaunav__about__container {
     width: 100%;
-    height: 100vh;
-    padding: 0px 120px 50px 120px;
+    height: 700px;
+    padding: 30px 70px 30px 70px;
     /* position: relative; */
 }
 
@@ -76,62 +77,84 @@ div.about_left {
 }
 
 div.about_left > h3 {
+    font-style: italic;
     font-size: 40px;
-    padding: 40px 0px 10px 0px;
+    padding: 0px 0px 5px 0px;
 }
 
 div.about_left > p {
     font-size: 16px;
     line-height: 1.55;
     font-weight: 300;
-    padding: 20px 0px;
+    padding-bottom: 10px;
+}
+
+div.about_left > ul > li{
+    line-height: 1.7;
+    font-size: 18px;
+    padding: 8px;
+}
+
+div.about_left > ul {
+    margin: auto;
+    width: 95%;
+    list-style: circle;
 }
 /* --------------   IMG GALLERY START  -------------- */
 div.about_right {
     display: inline-block;
     width: 45%;
-    height: auto;
+    height: 100%;
     float: right;
 }
 
-div.about_right > div.carousel.slide > div.carousel-inner  {
-    margin-top: 30%;
-    height: 700px;
+div.carousel {
+    margin-top: 3%;
+}
+
+div.carousel-item > img {
+    margin: auto;
+    width: 75% !important;
 }
 
 /* --------------   IMG GALLERY END   -------------- */
 
 section.jaunav__statments {
-    /* background-color: rgb(60, 153, 125); */
     width: 100%;
-    /* height: 400px; */
     background-image: url(../../img/bg/image00012m.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 600px;
 }
 
 div.jaunav__statments__container {
-    /* background-color: rgb(96, 202, 114); */
     width: 100%;
-    /* height: fit-content; */
-    /* height: auto; */
-    padding: 30px 170px 0px 170px;
+    padding: 30px 50px 0px 50px;
 }
 
 div.jaunav__statments__container > h3 {
     display: block;
     width: 100%;
-    padding: 20px 0px 40px 0px;
+    padding: 25px 0px 40px 0px;
     text-align: center;
     font-size: 40px;
     color: aliceblue;
 }
 
-div.statment__container {
+div.jaunav__statments__container > div.statment {
+    margin: 0;
+    width: 290px;
+}
+
+div.jaunav__statments__container > div.statment.bg-text::before {
+    right: 230px;  
+}
+
+/* div.statment__container {
     padding-top: 20px;
     margin: 0px 20px;
-}
+    height: 100%;
+} */
 
 div.statment {
     display: inline-block;
@@ -141,14 +164,15 @@ div.statment {
 }
 
 div.statment.bg-text > p {
-    padding: 50px 20px 20px 20px;
+    padding: 50px 15px 20px 15px;
     position: relative;
     width: 100%;
     overflow: hidden;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     color: aliceblue;
 }
+
 div.statment.bg-text::before {
     color: rgba(255, 255, 255, 0.404);
     content: attr(data-bg-text);
@@ -157,17 +181,17 @@ div.statment.bg-text::before {
     line-height: 1;
     position: absolute;
     bottom: auto;
-    right: 250px;   
+    right: 290px;
 }
 
 section.jaunav__program {
     width: 100%;
-    height: 80vh;
+    height: 700px;
 }
 
 .jaunav__program__container {
     width: 100%;
-    padding: 80px 170px 70px 170px;
+    padding: 80px 50px 70px 50px;
     height: 100%;
 }
 
@@ -199,15 +223,19 @@ div.jaunav__program__container > div.statment__container > div.statment > p.stat
 
 section.jaunav__payment__plan {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 div.jaunav__payment__container {
-    padding: 30px 100px;
+    padding: 30px 50px;
     text-align: center;
+    width: 49%;
+    float: left;
+    margin: auto;
 }
 
 div.jaunav__payment__container > h2{
+    width: 100%;
     padding-bottom: 40px;
     font-size: 30px;
     text-align: center;
@@ -219,7 +247,7 @@ div.payment__info {
     border-radius: 5px;
     height: fit-content;
     width: 500px;
-    height: 500px;
+    height: auto;
     margin: auto;
     text-align: left;
 }
@@ -252,13 +280,25 @@ div.payment__info > p {
 }
 
 div.payment__info > ul {
-    margin: 40px 0;
+    margin: 0 0;
+    margin: auto;
+    width: 80%;
+    border-top: 1px solid black;
+    padding-bottom: 20px;
 }
 
 div.payment__info > ul > li {
     margin: 0px 20px;
     padding: 20px 0;
     list-style: none;
+}
+
+div.payment__info > h4 > span {
+    text-decoration: line-through;
+}
+
+div.payment__info > ul > li > span {
+    text-decoration: line-through;
 }
 
 div.jaunav__payment__container > a {
