@@ -127,12 +127,7 @@ section.jaunav__statments {
     height: 600px;
 }
 
-div.jaunav__statments__container {
-    width: 100%;
-    padding: 30px 50px 0px 50px;
-}
-
-div.jaunav__statments__container > h3 {
+section.jaunav__statments > h3 {
     display: block;
     width: 100%;
     padding: 25px 0px 40px 0px;
@@ -141,30 +136,28 @@ div.jaunav__statments__container > h3 {
     color: aliceblue;
 }
 
-div.jaunav__statments__container > div.statment {
-    margin: 0;
-    width: 290px;
+div.jaunav__statments__container {
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
 }
 
-div.jaunav__statments__container > div.statment.bg-text::before {
-    right: 230px;  
+div.statment__container {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
 }
-
-/* div.statment__container {
-    padding-top: 20px;
-    margin: 0px 20px;
-    height: 100%;
-} */
 
 div.statment {
     display: inline-block;
-    width: 30%;
+    width: 100%;
     margin: 0;
     position: relative;
+    justify-items: center;
 }
 
 div.statment.bg-text > p {
-    padding: 50px 15px 20px 15px;
+    padding: 50px 40px 20px 40px;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -181,7 +174,7 @@ div.statment.bg-text::before {
     line-height: 1;
     position: absolute;
     bottom: auto;
-    right: 290px;
+    right: 70%;
 }
 
 section.jaunav__program {
@@ -204,14 +197,13 @@ section.jaunav__program {
     color: black;
 }
 
-.jaunav__program__container > div.statment__container {
+/* .jaunav__program__container > div.statment__container {
     position: relative;
-    height: 200px;
 }
 
 .jaunav__program__container > div.statment__container > div.statment {
     height: fit-content;
-}
+} */
 
 div.jaunav__program__container > div.statment__container > div.statment.bg-text::before {
     color: rgba(0, 0, 0, 0.404);
@@ -439,13 +431,15 @@ div.panel > p {
     
     section.jaunav__statments {
         width: 100%;
-        height: 700px;
+        height: 900px;
         background-image: url(../../img/bg/image00012m.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     div.jaunav__statments__container {
+        display: block;
+        grid-template-columns: none;
         width: 100%;
         padding: 30px 50px 0px 50px;
     }
@@ -483,8 +477,10 @@ div.panel > p {
     }
     
     .jaunav__program__container > div.statment__container {
+        display: block;
+        grid-template-columns: none;
         position: relative;
-        height: 200px;
+        height: auto;
     }
     
     .jaunav__program__container > div.statment__container > div.statment {
@@ -690,15 +686,23 @@ div.panel > p {
     /* --------------   IMG GALLERY END   -------------- */
     
     section.jaunav__statments {
-        height: 800px;
+        height: 1200px;
         background-image: url(../../img/bg/image00012m.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     div.jaunav__statments__container {
+        display: block;
+        grid-template-columns: none;
         width: 100%;
         padding: 30px 20px 0px 20px;
+        height: auto;
+    }
+
+    div.jaunav__program__container > div.statment__container {
+        display: block;
+        grid-template-columns: none;
     }
 
     div.statment {
@@ -720,11 +724,10 @@ div.panel > p {
     
     section.jaunav__program {
         width: 100%;
-        height: 800px;   
+        height: 1000px;   
     }
     
     div.jaunav__program__container {
-        display: block;
         height: 800px;
         padding: 30px 10px 30px 10px;
     }
@@ -751,15 +754,17 @@ div.panel > p {
     }
     /* HERE */
     section.jaunav__payment__plan {
+        display: block;
         margin-top: 10px;
         width: 100%;
-        height: 637px;
+        /* height: 637px; */
         height: fit-content;
     }
 
     div.jaunav__payment__container {
         width: 100%;
         padding: 0px 20px;
+        margin: 20px 0px;
     }
     
     div.jaunav__payment__container > h2{
@@ -768,7 +773,7 @@ div.panel > p {
     
     div.payment__info {
         width: 100%;
-        height: 465px;
+        height: 670px;
         border: 1px solid black;
         border-radius: 10px;
     }
@@ -796,6 +801,7 @@ div.panel > p {
     
     div.payment__info > ul {
         margin: 20px 0;
+        border: none;
     }
     
     div.payment__info > ul > li {
