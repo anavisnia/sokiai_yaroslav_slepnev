@@ -9,6 +9,11 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Poiret One', cursive; */
+    /* font-family: 'Italianno', cursive; */
+    /* font-family: 'Charm', cursive; */
+    /* font-family: 'Petit Formal Script', cursive; */
+    /* font-family: 'Farsan', cursive; */
 }
 
 /* RESPONSIVE */

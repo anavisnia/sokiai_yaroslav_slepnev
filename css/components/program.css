@@ -1,0 +1,46 @@
+body {
+    /* background-color: darkviolet; */
+}
+
+section.programa__hero {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+
+section.programa__hero > .hero__left {
+
+}
+
+section.programa__hero > .hero__left > video {
+    display: block !important;
+    width: 90%;
+    margin: auto;
+    margin-top: calc((100vh - 337px) / 2);
+    border-radius: 10px;
+}
+
+.hero__right {
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.hero__right > h3 {
+    width: 70%;
+    font-size: 26px;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+}
+
+.hero__right > ol{
+    text-align: left;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.hero__right > ol > li{
+    font-size: 18px;
+    padding: 2px 0;
+}
