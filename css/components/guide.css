@@ -1,7 +1,7 @@
 section.hero__guide {
     width: 100%;
     height: 100vh;
-    background-image: url(../../img/bg/image00023.jpeg);
+    background-image: url(../../img/bg/image00012.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,8 @@ section.hero__guide {
     height: 100vh;
     padding: 0 150px;
     padding-top: 250px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.062);
 }
 
 .guide__container > a.social.fa {
@@ -54,19 +55,18 @@ section.hero__guide {
 }
 
 section.guide__data {
-    width: 100%;
-    height: fit-content;
-    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
 div.guide__data__container {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: 0;
     padding: 40px 0;
 }
 
 div.guide__data__element {
-    width: 60%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }

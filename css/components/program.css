@@ -1,8 +1,5 @@
-body {
-    /* background-color: darkviolet; */
-}
-
 section.programa__hero {
+    background: linear-gradient(#fdb5f2, #f2dbfa);
     width: 100%;
     height: 100vh;
     display: grid;

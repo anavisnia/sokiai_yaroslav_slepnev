@@ -432,7 +432,7 @@ div.panel > p {
     
     section.jaunav__statments {
         width: 100%;
-        height: 900px;
+        height: 1100px;
         background-image: url(../../img/bg/image00012m.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -464,13 +464,13 @@ div.panel > p {
   
     section.jaunav__program {
         width: 100%;
-        height: 1000px;   
+        height: 1100px;   
     }
     
     div.jaunav__program__container {
         display: block;
-        height: 1000px;
-        padding: 80px 100px 70px 100px;
+        height: 1100px;
+        padding: 80px 100px 0px 100px;
     }
     
     div.jaunav__program__container > h3{
@@ -687,7 +687,7 @@ div.panel > p {
     /* --------------   IMG GALLERY END   -------------- */
     
     section.jaunav__statments {
-        height: 1200px;
+        height: 1300px;
         background-image: url(../../img/bg/image00012m.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -753,7 +753,7 @@ div.panel > p {
     div.jaunav__program__container > div.statment__container > div.statment > p.statment_front {
         color: black;
     }
-    /* HERE */
+    
     section.jaunav__payment__plan {
         display: block;
         margin-top: 10px;
@@ -774,7 +774,7 @@ div.panel > p {
     
     div.payment__info {
         width: 100%;
-        height: 670px;
+        height: 620px;
         border: 1px solid black;
         border-radius: 10px;
     }
@@ -807,6 +807,7 @@ div.panel > p {
     
     div.payment__info > ul > li {
         font-size: 16px;
+        padding: 10px 0;
     }
     
     div.jaunav__payment__container > a {
