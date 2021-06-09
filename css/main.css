@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import './components/font-awesome.min.css';
 @import './components/reset.css';
 @import './components/hero.css';
 @import './components/jaunav.css';
 @import './components/guide.css';
+@import './components/program.css';
 @import './components/footer.css';
 
 /* general media query */
@@ -16,4 +20,21 @@
         max-width: 1400px;
         margin: auto;
     }
+}
+
+h1, 
+h3,
+h2 {
+    font-family: 'Poiret One', cursive;
+}
+
+p.statment_front {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+p,
+li,
+a,
+h4 {
+    font-family: 'Quicksand', sans-serif;
 }
