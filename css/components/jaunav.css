@@ -11,6 +11,7 @@ section.hero__jaunav {
     background-color: rgba(0, 0, 0, 0.115);
     width: 100%;
     height: fit-content;
+    height: auto;
     padding: 0 50px;
     padding-top: 100px;
     padding-bottom: 20px;
