@@ -10,12 +10,46 @@ section.programa__hero > .hero__left {
 
 }
 
-section.programa__hero > .hero__left > video {
+video {
     display: block !important;
     width: 90%;
     margin: auto;
     margin-top: calc((100vh - 337px) / 2);
     border-radius: 10px;
+}
+
+.customcontrols {
+	font-size: 0;
+}
+
+.customcontrols >  figcaption {
+    width: 90%;
+    margin: auto;
+	background: rgba(0,0,0,0.6); 
+	display: none; 
+    padding: .5em; 
+	color: #fff;
+	position: relative; 
+    top: -19px;
+	text-align: right;
+	margin-bottom: -19px;
+    border-radius: 5px;
+}
+
+.customcontrols > figcaption > a { 
+	text-decoration: none; 
+    font-size: 15px; 
+	margin-right: 10px;
+	color: #fff;
+	border-bottom: none;
+}
+
+.customcontrols > figcaption > p {
+    display: inline-block;
+    padding: 3px;
+    margin-right: 15px;
+    font-size: 10px;
+	color: #fff;
 }
 
 .hero__right {
