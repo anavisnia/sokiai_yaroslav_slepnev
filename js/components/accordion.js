@@ -1,4 +1,3 @@
-
 function accordionAnimation() {
     let acc = document.getElementsByClassName("accordion");
 
