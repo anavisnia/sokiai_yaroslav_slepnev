@@ -235,7 +235,7 @@ div.jaunav__payment__container > h2{
 }
 
 div.payment__info {
-    background-color: rgb(223, 204, 224);
+    background: linear-gradient(#fdb5f2, #f2dbfa);
     border: 1px solid black;
     border-radius: 5px;
     height: fit-content;
