@@ -6,10 +6,6 @@ section.programa__hero {
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
-section.programa__hero > .hero__left {
-
-}
-
 video {
     display: block !important;
     width: 90%;
