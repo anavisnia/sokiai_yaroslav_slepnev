@@ -18,4 +18,4 @@ function customControls() {
     })
 }
 
-export { customControls }
+customControls();
