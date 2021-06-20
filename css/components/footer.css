@@ -25,10 +25,12 @@ footer > div > a:hover {
     text-decoration: none;
 }
 
-footer > div > p {
+footer > div > a:nth-child(2) {
+    width: 100%;
+    display: block;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.767);
-    margin: 0 20px;
+    margin: 0px 0px;
     padding: 15px 0 5px 0;
 }
 
@@ -47,7 +49,7 @@ footer > div > p {
         padding: 15px 0 10px 0;
     }
     
-    footer > div > p {
+    footer > div > a:nth-child(2) {
         font-size: 18px;
     }
 }
@@ -65,7 +67,7 @@ footer > div > p {
         padding: 15px 0 10px 0;
     }
     
-    footer > div > p {
+    footer > div > a:nth-child(2) {
         margin: 0;
         font-size: 16px;
     }
