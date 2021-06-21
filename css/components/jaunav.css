@@ -319,6 +319,7 @@ div.jaunav__faq__container {
 
 button.accordion {
     background-color: white;
+    font-family: 'Quicksand', sans-serif;
     color: #444;
     width: 100%;
     cursor: pointer;
@@ -327,10 +328,9 @@ button.accordion {
     text-align: left;
     font-size: 14px;
     border: none;
-    border-top: 1px solid black;
     outline: none;
+    border-top: 1px solid black;
     transition: 0.4s;
-    font-family: 'Quicksand', sans-serif;
 }
 
 button.accordion.last {
@@ -340,11 +340,6 @@ button.accordion.last {
 button.accordion:hover {
     background-color: rgba(235, 235, 235, 0.623);
 }
-
-/* 
-.active, .accordion:hover {
-    background-color: white;
-} */
 
 div.panel {
     padding: 0 18px;
@@ -359,9 +354,7 @@ div.panel > p {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/* div.accordion.active.last > div.panel.last {
-    border-bottom: 1px solid black;
-} */
+
 
 /* RESPONSIVE */
 /* tablets */
@@ -573,25 +566,9 @@ div.panel > p {
         transition: 0.4s;
     }
     
-    /* button.accordion.last {
-        border-bottom: 1px solid black;
-    }
-    
-    button.accordion:hover {
-        background-color: rgba(235, 235, 235, 0.623);
-    } */
-    
-    /* 
-    .active, .accordion:hover {
-        background-color: white;
-    } */
-    
     div.panel > p {
         font-size: 18px;
     }
-    /* div.accordion.active.last > div.panel.last {
-        border-bottom: 1px solid black;
-    } */
 }
 /* phones */
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
@@ -833,24 +810,8 @@ div.panel > p {
 
     }
     
-    /* button.accordion.last {
-        border-bottom: 1px solid black;
-    }
-    
-    button.accordion:hover {
-        background-color: rgba(235, 235, 235, 0.623);
-    } */
-    
-    /* 
-    .active, .accordion:hover {
-        background-color: white;
-    } */
-    
     div.panel > p {
         font-size: 16px;
     }
-    /* div.accordion.active.last > div.panel.last {
-        border-bottom: 1px solid black;
-    } */
 }
 /* RESPONSIVE */

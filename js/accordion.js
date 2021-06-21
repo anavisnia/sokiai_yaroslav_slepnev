@@ -1,4 +1,4 @@
-function accordionAnimation() {
+function accordion() {
     let acc = document.getElementsByClassName("accordion");
 
     for (let i = 0; i < acc.length; i++) {
@@ -14,4 +14,4 @@ function accordionAnimation() {
     }
 }
 
-export { accordionAnimation }
+accordion();

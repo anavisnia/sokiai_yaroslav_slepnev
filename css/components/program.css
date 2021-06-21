@@ -71,3 +71,84 @@ video {
     font-size: 18px;
     padding: 2px 0;
 }
+
+/* RESPONSIVE */
+/* phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    section.programa__hero {
+        background: linear-gradient(#fdb5f2, #f2dbfa);
+        width: 100%;
+        height: fit-content;
+        height: auto;
+        display: block;
+        grid-template-columns: none;
+    }
+    
+    video {
+        display: block !important;
+        width: 100%;
+        margin: auto;
+        margin-top: 0;
+        border-radius: 0px;
+    }
+    
+    .customcontrols {
+        font-size: 0;
+    }
+    
+    .customcontrols >  figcaption {
+        width: 100%;
+        margin: auto;
+        background: rgba(0,0,0,0.6); 
+        display: none; 
+        padding: 7px; 
+        color: #fff;
+        position: relative; 
+        top: -34px;
+        text-align: right;
+        margin-bottom: -10px;
+        border-radius: 0px;
+    }
+    
+    .customcontrols > figcaption > a { 
+        text-decoration: none; 
+        font-size: 15px; 
+        margin-right: 10px;
+        color: #fff;
+        border-bottom: none;
+    }
+    
+    .customcontrols > figcaption > p {
+        display: inline-block;
+        padding: 3px;
+        margin-right: 15px;
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .hero__right {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px;
+    }
+    
+    .hero__right > h3 {
+        width: 100%;
+        font-size: 18px;
+        margin: auto;
+        padding: 0px 0px 10px 0px;
+    }
+    
+    .hero__right > ol{
+        text-align: left;
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .hero__right > ol > li{
+        font-size: 18px;
+        padding: 2px 0;
+    }
+}
